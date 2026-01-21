@@ -6,7 +6,7 @@
 
 # input
 
-
+# test
                    
 print ("Enter number of steps: ")
 
