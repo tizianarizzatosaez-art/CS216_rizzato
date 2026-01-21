@@ -12,7 +12,7 @@ print ("Enter number of steps: ")
 
 steps_number = int( input() )
                    
-
+# need to change this to two-line approach
 steps_length_in = float(input("Enter the average length of your steps in inches: "))
 
 # processing
