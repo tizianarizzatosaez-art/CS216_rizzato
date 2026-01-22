@@ -1,4 +1,3 @@
-
 #      program: assignment.py
 #         date: 1/15/2026
 #       author: Tiziana Rizzato 
@@ -12,7 +11,7 @@ steps_number = int( input() )
                    
 print ( " Enter stride distance in inches " )
 
-inches = float(input())
+inches = int(input())
 
 # processing
 
@@ -36,4 +35,3 @@ elif steps_number > 10000:
 else:
     
     print("You walked exacly 10,000 steps ")
-
