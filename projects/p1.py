@@ -4,12 +4,10 @@
 #  description: Calculate the quantity of steps in a day depending on the recommended number of 10000
 
 # input
-                  
-print ("Enter number of steps ")
+print ("Enter number of steps")
 
 steps_number = int( input() )
-                   
-print ( " Enter stride distance in inches " )
+print("Enter stride distance in inches")
 
 inches = int(input())
 
@@ -21,17 +19,17 @@ total_distance_miles = total_distance_in / 63360  # Convert total inches to mile
 
  
 # output
-
-print(f" You walked {steps_number:} steps which is { total_distance_miles:.2f} miles")
+print(f"You walked {steps_number:,} steps which is { total_distance_miles:.2f} miles")
 
 if steps_number < 10000:
     
-    print(f" You need { 10000 - steps_number } more steps to reach 10,000 " )
+    print(f"You need {10000 - steps_number:,} more steps to reach 10,000 ")
     
 elif steps_number > 10000:
     
-    print(f" You were { 10000 - steps_number } steps over 10,000 " ) 
+    print(f"You were {steps_number - 10000:,} steps over 10,000 ") 
     
 else:
     
-    print("You walked exacly 10,000 steps ")
+    print("You walked exactly 10,000 steps")
+
