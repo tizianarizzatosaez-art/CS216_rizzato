@@ -6,7 +6,8 @@
 # input
 print ("Enter number of steps")
 
-steps_number = int( input() )
+steps_number = int( input())
+
 print("Enter stride distance in inches")
 
 inches = int(input())
@@ -19,7 +20,7 @@ total_distance_miles = total_distance_in / 63360  # Convert total inches to mile
 
  
 # output
-print(f"You walked {steps_number:,} steps which is { total_distance_miles:.2f} miles")
+print(f"You walked {steps_number:,} steps which is {total_distance_miles:.2f} miles")
 
 if steps_number < 10000:
     
