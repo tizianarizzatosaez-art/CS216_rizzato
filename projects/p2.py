@@ -34,7 +34,7 @@ def miles_output_line(steps, miles):
 
 def steps_output_line( additional ):
     msg = "undefined"
-    final_steps = 10000 - additional
+    final_steps = - additional
     if final_steps > 0:
         return (f'You need {additional:,} more steps to reach 10,000')
     elif final_steps == 0:
