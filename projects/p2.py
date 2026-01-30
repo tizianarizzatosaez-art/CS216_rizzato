@@ -34,14 +34,14 @@ def miles_output_line(steps, miles):
 
 def steps_output_line( additional ):
     msg = "undefined"
-    final_steps = - additional
+    final_steps = additional
     if final_steps > 0:
         return (f'You need {additional:,} more steps to reach 10,000')
-    elif final_steps == 0:
-        msg = "undefined"
-        return(f'You walked exactly 10,000 steps')
+    elif final_steps < 0:
+        msg = (f'You were {-additional:,} steps over 10,000')
+        return msg
     else: 
-        msg = f'You were {-additional:,} steps over 10,000'
+        msg = (f'You walked exactly 10,000 steps')
         return msg
    
 
@@ -59,6 +59,10 @@ def main():
     # output
     print( miles_output_line(steps, miles) )
     print( steps_output_line(additional) )
+
+if __name__ == "__main__": main()
+
+# +------ do not modify this section ----------+
 
 if __name__ == "__main__": main()
 
