@@ -339,6 +339,83 @@ else:
 
 header("upChute( N )")
 
-# *** add test cases for downChute( N ) here ***
+# Chute at 16 -> 6
+if downChute(16) == 6:
+    print("Passed: downChute(16) returns 6")
+else:
+    print("Failed: downChute(16) should return 6")
+
+# Chute at 47 -> 26
+if downChute(47) == 26:
+    print("Passed: downChute(47) returns 26")
+else:
+    print("Failed: downChute(47) should return 26")
+
+# Chute at 49 -> 11
+if downChute(49) == 11:
+    print("Passed: downChute(49) returns 11")
+else:
+    print("Failed: downChute(49) should return 11")
+
+# Chute at 56 -> 53
+if downChute(56) == 53:
+    print("Passed: downChute(56) returns 53")
+else:
+    print("Failed: downChute(56) should return 53")
+
+# Chute at 62 -> 19
+if downChute(62) == 19:
+    print("Passed: downChute(62) returns 19")
+else:
+    print("Failed: downChute(62) should return 19")
+
+# Chute at 64 -> 60
+if downChute(64) == 60:
+    print("Passed: downChute(64) returns 60")
+else:
+    print("Failed: downChute(64) should return 60")
+
+# Chute at 87 -> 24
+if downChute(87) == 24:
+    print("Passed: downChute(87) returns 24")
+else:
+    print("Failed: downChute(87) should return 24") 
+
+#Chute at 93 -> 73
+if downChute(93) == 73: 
+    print("Passed: downChute(93) returns 73")
+else:    print("Failed: downChute(93) should return 73")    
+
+# Chute at 93 -> 73
+if downChute(93) == 73:
+    print("Passed: downChute(93) returns 73")
+else:
+    print("Failed: downChute(93) should return 73")
+
+# Chute at 98 -> 78
+if downChute(98) == 78:
+    print("Passed: downChute(98) returns 78")
+else:    print("Failed: downChute(98) should return 78")
+
+# Chute at 95 -> 75
+if downChute(95) == 75:     
+    print("Passed: downChute(95) returns 75")   
+else:    print("Failed: downChute(95) should return 75")
+
+# Not a chute top
+if downChute(10) == 10:
+    print("Passed: downChute(10) returns 10 (no chute)")
+else:
+    print("Failed: downChute(10) should return 10") 
+# Not a chute top
+if downChute(50) == 50:
+    print("Passed: downChute(50) returns 50 (no chute)")
+else:
+    print("Failed: downChute(50) should return 50") 
+
+# --------------------------------------------
+# --- end of p3_test.py
+# --------------------------------------------
+
 
 
