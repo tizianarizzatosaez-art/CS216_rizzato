@@ -27,9 +27,9 @@ while n != -1:
         numberBowlers += 1
         totalScore += n
 
-        if n > max:
+            if n > max:
             max = n
-        if n < min:
+            if n < min:
             min = n
 
     scoreNumber += 1
