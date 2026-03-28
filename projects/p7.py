@@ -43,15 +43,6 @@ def update_health(character, amount):
 
     character ["health"] = new_health 
 
-#messages
-
-    #if amount > 0:
-        #print(f"{character ['name']} heals for {amount} health!")
-   # elif amount < 0:
-       #print (f"{character ['name']} takees {-amount} damege!")
-
-   # print(f"{character['name']} now has {new_health} health.")
-
 
 def display_character(character):
    
