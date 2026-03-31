@@ -1,3 +1,9 @@
+# Tiziana Rizzato
+# 3/25/26
+# Assignment 7: Working with dictionaries 
+
+
+
 # Starting character
 Norm = {
     "name": "Norm the Forester",
